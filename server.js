@@ -107,7 +107,6 @@ app.post('/call/get_files', (req, res) => {
         sortOrder:"asc",
         page:0
     }
-    console.log(JSON.stringify(body));
     //Call Microsoft Graph with your access token
     fetch(`${test_endpoint}${test_action}`, {
         method: "post",
