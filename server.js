@@ -96,7 +96,7 @@ app.post('/call/get_files', (req, res) => {
     const test_endpoint = process.env.TEST_ENDPOINT;
     const test_action = process.env.TEST_ACTION;
     const body = {
-        workspace:"6272ec146bf01c0da1ffb6c0",
+        workspace:"<workspace-id>",
         files:["recent"],
         bin:"",
         type:"all",
