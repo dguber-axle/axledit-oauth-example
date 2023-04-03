@@ -23,7 +23,7 @@ TEST_ENDPOINT="https://app.axledit.com/api/1.0/"
 TEST_ACTION="files/get_files"
 ```
 
-You will also need to modify the workspace-id in the "server.js" to test the axledit API with the generated access token.
+You will also need to modify the workspace-id in the "server.js" line 99 with the one that belongs to the account so it is possible to test the axledit API with the generated access token.
 
 Original source code of this example:
 https://github.com/0GiS0/oauth2-authZ-code-flow
